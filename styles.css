@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1f806a;
+}
+.container {
+  background-color: #1f806a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 150px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 3px #1f11113f;
+}
+.card button {
+  padding: 15px;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 5px;
+}
+
+.message,
+.message1 {
+  position: absolute;
+
+  top: -2px;
+
+  background-color: RGB(44, 44, 44);
+
+  color: rgb(255, 255, 255);
+  padding: 10px;
+
+  height: 50px;
+
+  border-radius: 0px 0px 5px 5px;
+}
+
+.message1 {
+  color: #eb4748;
+  border: 1px solid #eb4748;
+}
+
+.hide {
+  top: -50px;
+
+  transition: all 1s ease;
+}
+.fixed {
+  display: fixed;
+}
